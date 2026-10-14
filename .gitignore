@@ -1,0 +1,21 @@
+# SPIRE runtime data and secrets
+**/data/
+**/*.sqlite3
+**/keys.json
+**/*.pem
+**/*.key
+**/*.svid
+**/*.token
+
+# Downloaded SPIRE distribution
+**/spire.tar.gz
+**/spire-1.15.3/
+
+# Local backups and environment files
+*.bak
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
