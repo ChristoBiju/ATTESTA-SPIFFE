@@ -37,3 +37,4 @@ __pycache__/
 .coverage
 .pytest_cache/
 ledger/attestations_dev.db
+test-artifacts/
