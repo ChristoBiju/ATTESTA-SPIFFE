@@ -1,3 +1,4 @@
+import os
 import sqlite3
 import hashlib
 import json
@@ -8,7 +9,9 @@ from pathlib import Path
 
 # Database location
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "attestations.db"
+DB_PATH = Path(
+    os.environ.get("ATTESTA_DB_PATH", str(BASE_DIR / "attestations.db"))
+)
 
 GENESIS_HASH = "GENESIS"
 

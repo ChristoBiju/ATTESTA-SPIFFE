@@ -36,3 +36,4 @@ __pycache__/
 # Test and coverage artifacts
 .coverage
 .pytest_cache/
+ledger/attestations_dev.db
