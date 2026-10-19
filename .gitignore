@@ -19,3 +19,20 @@
 
 # Logs
 *.log
+# ATTESTA ledger runtime data
+ledger/attestations.db
+ledger/attestations.db-journal
+ledger/attestations.db-wal
+ledger/attestations.db-shm
+
+# Checkpoint signing keys and local checkpoints
+ledger/checkpoint_keys/
+ledger/checkpoints/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Test and coverage artifacts
+.coverage
+.pytest_cache/
